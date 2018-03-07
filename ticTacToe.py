@@ -9,3 +9,11 @@ def print_board():
     print(the_board["MID_LEFT"] + "|" + the_board["MID_MID"] + "|" + the_board["MID_RIGHT"])
     print("-+-+-")
     print(the_board["BOT_LEFT"] + "|" + the_board["BOT_MID"] + "|" + the_board["BOT_RIGHT"])
+
+
+def start_game():
+    print_board()
+
+
+if __name__ == '__main__':
+    start_game()
